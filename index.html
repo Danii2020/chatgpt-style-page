@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>ChatCTT</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChatGPT-Style Interactive UI</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>Chats</h2>
+      <ul class="chat-list"></ul>
+    </aside>
+    <!-- Main Chat Area -->
+    <section class="chat-content"></section>
+  </div>
+  <!-- Input Box -->
+  <footer class="input-container">
+    <input type="text" placeholder="Type your message…" class="chat-input" />
+    <button class="send-button">Send</button>
+  </footer>
+  <!-- Link to JavaScript (defer so DOM is ready) -->
+  <script src="script.js" defer></script>
 </body>
 </html>
