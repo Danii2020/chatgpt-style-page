@@ -23,7 +23,7 @@ const chats = ["Chat 1", "Chat 2", "Chat 3", "Chat 4"]
 //     return botReplies[index]
 // }
 
-const chatBot = new Chatbot("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")
+const chatBot = new Chatbot("your-key)
 
 
 function handleSend() {
